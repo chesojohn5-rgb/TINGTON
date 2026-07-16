@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Create a Tingon Enterprises Limited customer account.">
+  <title>Create Account | Tingon Enterprises Limited</title>
+  <link rel="stylesheet" href="style.css?v=20260716">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="Tingon Enterprises Limited home">
+      <img class="brand-logo" src="static/logo.jpg" alt="Tingon Enterprises Limited logo">
+      <span class="brand-text">Tingon Enterprises Limited</span>
+    </a>
+    <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="siteNav">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="site-nav" id="siteNav" aria-label="Main navigation">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="products.html">Products</a>
+      <a href="services.html">Services</a>
+      <a href="clients.html">Clients</a>
+      <a class="nav-cta" href="contact.html">Request Quote</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page-hero account-hero">
+      <div>
+        <p class="eyebrow">Customer account</p>
+        <h1>Create an account for quotations and supply requests.</h1>
+        <p>
+          Register your details so Tingon Enterprises Limited can follow up with
+          quotations, delivery details, and procurement support.
+        </p>
+      </div>
+    </section>
+
+    <section class="auth-section">
+      <div class="auth-copy">
+        <p class="eyebrow">Get started</p>
+        <h2>Tell us who you are and what your business needs.</h2>
+        <p>
+          This front-end form prepares an email registration request for Tingon.
+          It can later be connected to a database or customer portal if needed.
+        </p>
+      </div>
+
+      <form class="quote-form auth-form" id="accountForm">
+        <label>
+          <span>Full Name</span>
+          <input type="text" name="name" autocomplete="name" required>
+        </label>
+        <label>
+          <span>Company or Organization</span>
+          <input type="text" name="company" autocomplete="organization">
+        </label>
+        <label>
+          <span>Email</span>
+          <input type="email" name="email" autocomplete="email" required>
+        </label>
+        <label>
+          <span>Phone</span>
+          <input type="tel" name="phone" autocomplete="tel" required>
+        </label>
+        <label>
+          <span>Primary Interest</span>
+          <select name="category" required>
+            <option value="">Select one</option>
+            <option>General supply</option>
+            <option>Food stuffs and livestock</option>
+            <option>Construction and engineering</option>
+            <option>Farming supplies</option>
+            <option>Mining or heavy equipment</option>
+            <option>Stationery and computer accessories</option>
+          </select>
+        </label>
+        <button class="btn btn-primary" type="submit">Create Account Request</button>
+        <p class="form-note" id="accountNote" role="status" aria-live="polite"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>Tingon Enterprises Limited</p>
+    <div>
+      <a href="index.html">Home</a>
+      <a href="products.html">Products</a>
+      <a href="contact.html">Contact</a>
+      <a href="login.html">Customer Login</a>
+    </div>
+  </footer>
+  <script src="script.js?v=20260716"></script>
+</body>
+</html>

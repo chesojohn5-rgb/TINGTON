@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Request a quotation from Tingon Enterprises Limited in Lusaka, Zambia.">
+  <title>Request Quote | Tingon Enterprises Limited</title>
+  <link rel="stylesheet" href="style.css?v=20260715">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="Tingon Enterprises Limited home">
+      <img class="brand-logo" src="static/logo.jpg" alt="Tingon Enterprises Limited logo">
+      <span class="brand-text">Tingon Enterprises Limited</span>
+    </a>
+    <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="siteNav">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="site-nav" id="siteNav" aria-label="Main navigation">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="products.html">Products</a>
+      <a href="services.html">Services</a>
+      <a href="clients.html">Clients</a>
+      <a class="nav-cta" href="contact.html" aria-current="page">Request Quote</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page-hero contact-hero">
+      <div>
+        <p class="eyebrow">Request quote</p>
+        <h1>Send Tingon your product request or project brief.</h1>
+        <p>
+          Include the item or service, quantity, delivery location, expected timeline,
+          and any specifications needed for an accurate response.
+        </p>
+      </div>
+    </section>
+
+    <section class="quote-section standalone-quote">
+      <div class="quote-copy">
+        <p class="eyebrow">Contact details</p>
+        <h2>Reach the team directly.</h2>
+        <p>
+          Tingon Enterprises Limited is based in Olympia, Lusaka and supports clients
+          across general supply, construction, farming, food, technical, and industrial
+          procurement needs.
+        </p>
+        <address>
+          <span>Plot 2118/9013, Olympia, Lusaka, Zambia</span>
+          <a href="tel:+260975477405">+260 975 477 405</a>
+          <a href="tel:+447507925038">+44 7507 925 038</a>
+          <a href="mailto:tinangosa1@gmail.com">tinangosa1@gmail.com</a>
+        </address>
+      </div>
+
+      <form class="quote-form" id="quoteForm">
+        <label>
+          <span>Name</span>
+          <input type="text" name="name" autocomplete="name" required>
+        </label>
+        <label>
+          <span>Email or Phone</span>
+          <input type="text" name="contact" autocomplete="email" required>
+        </label>
+        <label>
+          <span>Category</span>
+          <select name="category" required>
+            <option value="">Select one</option>
+            <option>Food stuffs and livestock</option>
+            <option>Construction and engineering</option>
+            <option>Health equipment</option>
+            <option>Farming supplies</option>
+            <option>Mining or heavy equipment</option>
+            <option>Stationery and computer accessories</option>
+            <option>Other general supply</option>
+          </select>
+        </label>
+        <label>
+          <span>Request Details</span>
+          <textarea name="details" rows="6" placeholder="Tell us what you need, quantities, delivery location, and timeline." required></textarea>
+        </label>
+        <button class="btn btn-primary" type="submit">Email Request</button>
+        <p class="form-note" id="formNote" role="status" aria-live="polite"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>Tingon Enterprises Limited</p>
+    <div>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="products.html">Products</a>
+      <a href="services.html">Services</a>
+    </div>
+  </footer>
+  <script src="script.js?v=20260715"></script>
+</body>
+</html>
